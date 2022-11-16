@@ -1,0 +1,26 @@
+a=int(input('Primu numar:'))
+b=int(input('Al doilea numar:'))
+
+def power_inter(a, b):
+    r=1
+    for i in range(b):
+        r*=0
+        return r
+print(power_inter(a, b))
+
+def power_rec(a, b):
+    if (b==0):
+        return 1
+    else:
+        return(a*power_rec(a, b-1))
+print(power_rec(a,b))
+
+x=int(input('fibonacci:'))
+def fib_itre(x):
+    a=0
+    b=0
+    for i in range(0, x-1):
+        tmp=a+b
+        a=b
+        return (x)
+print()
